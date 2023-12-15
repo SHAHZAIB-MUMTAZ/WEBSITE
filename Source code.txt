@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom Style sheet -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- SWIPER CSS  -->
+    <link rel="stylesheet" href="styless">
+
+    <link rel="stylesheet" href="css/bg.css">
+
+    <!-- BoxICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+    <title>Muzammil Ahmed</title>
+    <link rel="icon" type="icon" href="./image/logo.jpeg">
+
+
+</head>
+
+<body>
+    <!-- Side BAr Starts-->
+    <div class="nav-toggle" id="nav-toggle">
+        <i class='bx bx-menu nav-toggle-icon'></i>
+    </div>
+    <aside class="sidebar" id="sidebar">
+        <nav class="nav">
+            <div class="nav-logo">
+                <img src="./image/logo.png" alt="" class="nav-logo-img">
+            </div>
+            <div class="nav-menu">
+                <div class="menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#work" class="nav-link">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-close" id="nav-close">
+                <i class='bx bx-x nav-close-icon'></i>
+            </div>
+        </nav>
+    </aside>
+    <!-- Side BAr Ends-->
+    <!-- main content start  -->
+
+    <!-- home section starts  -->
+    <main class="main">
+        <section class="wrapper">
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
+        </section>
+        <section class="home" id="home">
+            <div class="home-container container grid ">
+                <div class="home-social">
+                    <span class="home-social-follow">Follow Me </span>
+                    <div class="home-social-links">
+                        <a href="https://web.facebook.com/muzammil.074" target="blank" class="home-social-link">
+                            <i class='bx bxl-facebook'></i> </a>
+                        <a href="https://www.instagram.com/ig_mahmed/" target="blank" class="home-social-link">
+                            <i class='bx bxl-instagram'></i> </a>
+                        <a href="https://twitter.com/Muzammil_Dot" target="blank" class="home-social-link">
+                            <i class='bx bxl-twitter'></i> </a>
+
+                    </div>
+                </div>
+                <img src="./image/about.jpg" alt="" class="home-img">
+                <div class="home-data">
+                    <div>
+                        <div class="wavy">
+                            <span style="--i:1;">M</span>
+                            <span style="--i:2;">U</span>
+                            <span style="--i:3;">Z</span>
+                            <span style="--i:4;">A</span>
+                            <span style="--i:5;">M</span>
+                            <span style="--i:6;">M</span>
+                            <span style="--i:7;">I</span>
+                            <span style="--i:8;">L</span>
+                        </div>
+                        <h3 class="home-subtitle">Full Stack Web Developer</h3>
+                        <p class="home-description">High level experience in web design and development knowledge,
+                            producing
+                            quality work</p>
+                        <a href="#about" class="button"><i class='bx bx-user button-icon'></i>More About Me</a>
+                    </div>
+                    <div class="anime-container">
+                        <div class="ring"></div>
+                        <div class="ring"></div>
+                        <div class="ring"></div>
+                        <div class="ring"></div>
+
+                    </div>
+                </div>
+                <div class="my-info">
+                    <div class="info-item">
+                        <i class='bx bxl-messenger info-icon'></i>
+                        <div>
+                            <h3 class="info-title ">Messenger</h3>
+                            <span class="info-subtitle">muzammil.074</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class='bx bxl-whatsapp info-icon'></i>
+                        <div>
+                            <h3 class="info-title">Whats App</h3>
+                            <span class="info-subtitle">0312 0743508</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class='bx bx-envelope info-icon'></i>
+                        <div>
+                            <h3 class="info-title">E-mail</h3>
+                            <span class="info-subtitle">muzammil.ahmed.1632@gmail.com</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- home section ends  -->
+
+        <!-- about section start  -->
+        <section class="about section" id="about">
+            <h2 data-heading="My Intro" class="section-title">About Me</h2>
+
+            <div class="about-container container grid">
+                <img src="./image/about.jpg" alt="" class="about-image">
+
+                <div class="about-data">
+                    <h3 class="about-heading" data-aos="fade-right">Hi, I'm Muzammil Ahmed, Based in Islamabad Pakistan
+                    </h3>
+                    <p class="about-description">As a web developer, I have the ability to bring ideas to life and
+                        create digital experiences that engage, inform, and delight users. I believe that the web is a
+                        constantly evolving medium, and I am committed to staying up-to-date with the latest
+                        technologies and trends to create websites that are not only functional, but also visually
+                        stunning and easy to use. I enjoy collaborating with clients and colleagues to understand their
+                        needs and goals, and to find creative solutions to complex problems. Whether I am working on a
+                        small project or a large-scale website, my focus is always on delivering high-quality work that
+                        meets and exceeds expectations. As a web developer, I am passionate about the power of the web
+                        to connect people, share knowledge, and transform the world.
+                    </p>
+                    <div class="about-info grid">
+                        <div class="about-box">
+                            <i class='bx bx-award about-icon'></i>
+                            <h3 class="about-title">Experince</h3>
+                            <span class="about-subtitle">1 + year</span>
+                        </div>
+                        <div class="about-box">
+                            <i class='bx bx-briefcase about-icon'></i>
+                            <h3 class="about-title">Completed</h3>
+                            <span class="about-subtitle">10 + projects</span>
+                        </div>
+                        <div class="about-box">
+                            <i class='bx bx-headphone about-icon'></i>
+                            <h3 class="about-title">Support</h3>
+                            <span class="about-subtitle">Online Mon-Fri 24/7</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="button"><i class='bx bx-navigation button-icon'></i>Hire Me</a>
+                </div>
+            </div>
+        </section>
+        <!-- about section ends  -->
+        <!-- Skills  -->
+        <section class="skills section" id="skills">
+            <h2 data-heading="My Abilities" class="section-title">My Experince</h2>
+            <div class="skills-container container grid">
+                <div class="skills-tabs">
+                    <div class="skills-header">
+                        <i class='bx bx-code skills-icon'></i>
+                        <div>
+                            <h1 class="skills-title">Full Stack Web Developer </h1>
+                            <span class="skills-subtitle">More than 1 year</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-content">
+                    <div class="skills-group">
+                        <div class="skills-list grid">
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h1 class="skills-head">Front End</h1>
+                                    <h1 class="skills-head">Back End</h1>
+                                </div>
+                            </div>
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">HTML</h3>
+                                    <h3 class="skills-name">PHP</h3>
+                                </div>
+                            </div>
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">CSS</h3>
+                                    <h3 class="skills-name">Laravel</h3>
+                                </div>
+
+                            </div>
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">BootStrap</h3>
+                                </div>
+                            </div>
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">JavaScript</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- work Section  -->
+        <section class="work section" id="work">
+            <h2 data-heading="My Portfolio" class="section-title">Recent Works</h2>
+
+            <div class="work-filters">
+                <span class="work-item  data-filter=" all "">WebSite</span>
+            </div>
+            <div class="work-container container grid">
+                <div class="work-card">
+                    <img src="./image/work1.png" alt="" class="work-img">
+                    <h3 class="work-title">Web Design</h3>
+                    <div class="portfolio-item-details">
+                        <h3 class="details-title"></h3>
+                        <p class="details-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                            repellendus iure deleniti perferendis ducimus perspiciatis quos rerum nulla porro nam.</p>
+
+                    </div>
+
+                </div>
+                <div class="work-card">
+                    <img src="./image/work2.png" alt="" class="work-img">
+                    <h3 class="work-title">Web Design</h3>
+
+                    <div class="portfolio-item-details">
+                        <h3 class="details-title"></h3>
+                        <p class="details-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                            repellendus iure deleniti perferendis ducimus perspiciatis quos rerum nulla porro nam.</p>
+
+                    </div>
+
+                </div>
+                <div class="work-card">
+                    <img src="./image/work3.png" alt="" class="work-img">
+                    <h3 class="work-title">Web Design</h3>
+
+                    <div class="portfolio-item-details">
+                        <h3 class="details-title"></h3>
+                        <p class="details-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                            repellendus iure deleniti perferendis ducimus perspiciatis quos rerum nulla porro nam.</p>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- services -->
+        <section class="services section" id="services">
+            <h2 data-heading="Services" class="section-title">What I Offer</h2>
+            <div class="services-container container grid">
+                <div class="services-content">
+                    <div>
+                        <i class='bx bxs-grid services-icon'></i>
+                        <h3 class="services-title">UX /UI <br>Designing</h3>
+                    </div>
+                    <span class="services-button">
+                        View More <i class='bx bx-chevron-right services-button-icon'></i>
+                    </span>
+                    <div class="services-modal">
+                        <div class="services-modal-content">
+                            <i class='bx bx-x services-modal-close'></i>
+
+                            <h3 class="services-modal-title">Ui Designer</h3>
+                            <p class="services-modal-description">Services With more than 1 year of experience.
+                                Providing quality work to clients and companies </p>
+
+                            <ul class="services-modal-services grid">
+                                <li class="servies-modal-service">
+                                    <i class='bx bx-check-circle services-modal-icon'></i>
+                                    <p class="services-modal-info">I develop user interface</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services-content">
+                    <div>
+                        <i class='bx bx-code-alt services-icon'></i>
+                        <h3 class="services-title">Web <br>Development</h3>
+                    </div>
+                    <span class="services-button">
+                        View More <i class='bx bx-chevron-right services-button-icon'></i>
+                    </span>
+                    <div class="services-modal">
+                        <div class="services-modal-content">
+                            <i class='bx bx-x services-modal-close'></i>
+
+                            <h3 class="services-modal-title">Web Developer</h3>
+                            <p class="services-modal-description">Services With more than 1 year of experience.
+                                Providing quality work to clients and companies </p>
+
+                            <ul class="services-modal-services grid">
+                                <li class="servies-modal-service">
+                                    <i class='bx bx-check-circle services-modal-icon'></i>
+                                    <p class="services-modal-info">I develop web pages</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services-content">
+                    <div>
+                        <i class='bx bx-edit-alt services-icon'></i>
+                        <h3 class="services-title">Branded <br>Designing</h3>
+                    </div>
+                    <span class="services-button">
+                        View More <i class='bx bx-chevron-right services-button-icon'></i>
+                    </span>
+                    <div class="services-modal">
+                        <div class="services-modal-content">
+                            <i class='bx bx-x services-modal-close'></i>
+
+                            <h3 class="services-modal-title">Branding Designer</h3>
+                            <p class="services-modal-description">Services With more than 1 year of experience.
+                                Providing quality work to clients and companies </p>
+
+                            <ul class="services-modal-services grid">
+                                <li class="servies-modal-service">
+                                    <i class='bx bx-check-circle services-modal-icon'></i>
+                                    <p class="services-modal-info">I offer quality work</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section  -->
+        <section class="contact section" id="contact">
+            <h2 data-heading="Get in touch" class="section-title">Contact Me</h2>
+
+            <div class="contact-container container grid">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class='bx bx-envelope contact-card-icon'></i>
+                            <h3 class="contact-card-title">E-mail</h3>
+                            <span class="contact-card-data">muzammil.ahmed.1632@gmail.com</span>
+                            <span class="contact-button">
+                                Write me <i class='bx bx-chevron-right contact-button-icon'></i>
+                            </span>
+                        </div>
+                        <div class="contact-card">
+                            <i class='bx bxl-whatsapp contact-card-icon'></i>
+                            <h3 class="contact-card-title">Whats App</h3>
+                            <span class="contact-card-data">03120743508</span>
+                            <span class="contact-button">
+                                Write me <i class='bx bx-chevron-right contact-button-icon'></i>
+                            </span>
+                        </div>
+                        <div class="contact-card">
+                            <i class='bx bxl-messenger contact-card-icon'></i>
+                            <h3 class="contact-card-title">Messenger</h3>
+                            <span class="contact-card-data">muzammil.074</span>
+                            <span class="contact-button">
+                                Write me <i class='bx bx-chevron-right contact-button-icon'></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-content">
+                    <form action="https://formsubmit.co/muzammil.ahmed.1632@gmail.com" method="post"
+                        class="contact-form">
+                        <div class="input-container">
+                            <input type="text" name="name" required class="input">
+                            <label for="">Username</label>
+                            <span>Username</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="email" name="email" required class="input">
+                            <label for="">Email</label>
+                            <span>Email</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="tel" name="phone" class="input">
+                            <label for="">Phone</label>
+                            <span>Phone</span>
+                        </div>
+                        <div class="input-container ">
+                            <textarea name="" id="" cols="30" class="input"></textarea>
+                            <label for="" class="label">Message</label>
+                            <span>Message</span>
+                        </div>
+                        <button class="button" class="<i class='bx bx-navigation button-icon'></i>">
+                            Send Message
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-bg">
+                <div class="footer-container container grid">
+                    <div>
+                        <h1 class="footer-title">Muzammil</h1>
+                        <span class="footer-subtitle">Front-end Developer</span>
+                    </div>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#services" class="footer-link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#work" class="footer-link">Work</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer-link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer-socials">
+                        <a href="https://web.facebook.com/muzammil.074" target="blank" class="footer-social">
+                            <i class='bx bxl-facebook'></i> </a>
+                        <a href="https://www.instagram.com/ig_mahmed/" target="blank" class="footer-social">
+                            <i class='bx bxl-instagram'></i> </a>
+                        <a href="https://twitter.com/Muzammil_Dot" target="blank" class="footer-social">
+                            <i class='bx bxl-twitter'></i> </a>
+                    </div>
+                </div>
+                <p class="footer-copy"> &#169; Muzammil. All right reserved</p>
+            </div>
+        </footer>
+
+
+
+
+
+    </main>
+    <!-- main content end  -->
+
+
+
+    <!-- custom js  -->
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
